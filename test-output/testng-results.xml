@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18559" started-at="2021-12-02T12:19:03 IST" finished-at="2021-12-02T12:19:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18559" started-at="2021-12-02T12:19:03 IST" finished-at="2021-12-02T12:19:21 IST">
+      <class name="SeleniumPractice.LoginPage">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:SeleniumPractice.LoginPage@530612ba]" name="Setup" is-config="true" duration-ms="11291" started-at="2021-12-02T12:19:03 IST" finished-at="2021-12-02T12:19:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="cheakUrl()[pri:1, instance:SeleniumPractice.LoginPage@530612ba]" name="cheakUrl" duration-ms="53" started-at="2021-12-02T12:19:14 IST" finished-at="2021-12-02T12:19:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cheakUrl -->
+        <test-method status="PASS" signature="FailLoginPassword()[pri:2, instance:SeleniumPractice.LoginPage@530612ba]" name="FailLoginPassword" duration-ms="1892" started-at="2021-12-02T12:19:14 IST" finished-at="2021-12-02T12:19:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailLoginPassword -->
+        <test-method status="PASS" signature="FailLoginmail()[pri:3, instance:SeleniumPractice.LoginPage@530612ba]" name="FailLoginmail" duration-ms="399" started-at="2021-12-02T12:19:16 IST" finished-at="2021-12-02T12:19:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailLoginmail -->
+        <test-method status="PASS" signature="Headline()[pri:4, instance:SeleniumPractice.LoginPage@530612ba]" name="Headline" duration-ms="56" started-at="2021-12-02T12:19:16 IST" finished-at="2021-12-02T12:19:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Headline -->
+        <test-method status="PASS" signature="subtitle()[pri:5, instance:SeleniumPractice.LoginPage@530612ba]" name="subtitle" duration-ms="46" started-at="2021-12-02T12:19:16 IST" finished-at="2021-12-02T12:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtitle -->
+        <test-method status="PASS" signature="checkmail()[pri:6, instance:SeleniumPractice.LoginPage@530612ba]" name="checkmail" duration-ms="156" started-at="2021-12-02T12:19:17 IST" finished-at="2021-12-02T12:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkmail -->
+        <test-method status="PASS" signature="BlankData()[pri:7, instance:SeleniumPractice.LoginPage@530612ba]" name="BlankData" duration-ms="279" started-at="2021-12-02T12:19:17 IST" finished-at="2021-12-02T12:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankData -->
+        <test-method status="PASS" signature="VerifyLogo()[pri:8, instance:SeleniumPractice.LoginPage@530612ba]" name="VerifyLogo" duration-ms="40" started-at="2021-12-02T12:19:17 IST" finished-at="2021-12-02T12:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogo -->
+        <test-method status="PASS" signature="verifyText()[pri:9, instance:SeleniumPractice.LoginPage@530612ba]" name="verifyText" duration-ms="48" started-at="2021-12-02T12:19:17 IST" finished-at="2021-12-02T12:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="verifyHeadline()[pri:10, instance:SeleniumPractice.LoginPage@530612ba]" name="verifyHeadline" duration-ms="31" started-at="2021-12-02T12:19:17 IST" finished-at="2021-12-02T12:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeadline -->
+        <test-method status="PASS" signature="Validlogin()[pri:11, instance:SeleniumPractice.LoginPage@530612ba]" name="Validlogin" duration-ms="4202" started-at="2021-12-02T12:19:17 IST" finished-at="2021-12-02T12:19:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validlogin -->
+      </class> <!-- SeleniumPractice.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

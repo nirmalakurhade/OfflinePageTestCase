@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumPractice.Dashboard">
+        <methods>
+          <include name="DashboardPage"/>
+          <include name="TotalMoreInfoLink"/>
+          <include name="WindowHandeling"/>
+          <include name="TotalinnerBox"/>
+          <include name="Setup"/>
+          <include name="TotalCourses"/>
+          <include name="NoOfIcons"/>
+        </methods>
+      </class> <!-- SeleniumPractice.Dashboard -->
+      <class name="SeleniumPractice.UserPage">
+        <methods>
+          <include name="AlertHandle"/>
+          <include name="VerifyHeading"/>
+          <include name="CheckColumnTitle"/>
+          <include name="GetHomepageUrl"/>
+          <include name="Setup"/>
+          <include name="StateSelected"/>
+          <include name="ListTitle"/>
+        </methods>
+      </class> <!-- SeleniumPractice.UserPage -->
+      <class name="SeleniumPractice.AddUserPage">
+        <methods>
+          <include name="CheckURL"/>
+          <include name="VerifySideBar"/>
+          <include name="userpage"/>
+          <include name="VerifySubmitButton"/>
+          <include name="VerifyHeading"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- SeleniumPractice.AddUserPage -->
+      <class name="SeleniumPractice.LoginPage">
+        <methods>
+          <include name="BlankData"/>
+          <include name="Headline"/>
+          <include name="subtitle"/>
+          <include name="FailLoginPassword"/>
+          <include name="checkmail"/>
+          <include name="verifyHeadline"/>
+          <include name="verifyText"/>
+          <include name="cheakUrl"/>
+          <include name="VerifyLogo"/>
+          <include name="Validlogin"/>
+          <include name="Setup"/>
+          <include name="FailLoginmail"/>
+        </methods>
+      </class> <!-- SeleniumPractice.LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
